@@ -1,1 +1,30 @@
+# SERENITY standard profile
+# Supported Python runtime: 3.10 to 3.12 (3.11 recommended on Raspberry Pi 5)
 
+fastapi==0.115.6
+uvicorn==0.32.1
+python-multipart==0.0.20
+sqlalchemy==2.0.23
+pydantic==2.5.0
+numpy==1.26.4
+librosa==0.10.1
+opencv-python-headless==4.8.1.78
+tensorflow==2.18.0
+requests==2.31.0
+httpx==0.28.1
+faster-whisper==1.1.1
+edge-tts==6.1.12
+bcrypt==4.2.1
+wordninja==2.0.0
+
+# Optional: offline knowledge-base rebuild tooling
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+beautifulsoup4==4.12.2
+
+# Optional: local LLM runtime (not required for cloud LLM deployment)
+# torch==2.1.0
+# transformers==4.45.2
+# accelerate==1.0.1
+# huggingface_hub==0.25.2
+# bitsandbytes==0.45.2
